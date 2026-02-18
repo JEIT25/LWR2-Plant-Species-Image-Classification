@@ -190,7 +190,7 @@ The image classification model is designed to detect and distinguish various her
 **Description:** A coastal tree known for its large, fragrant flowers and floating fruits, often found along seashores.
 
 ---
-### 🌴 Fish Posion
+### 🌴 Fish Poison
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/57fd0ff1-5cc1-488f-a0ea-645601c80503" />
 
