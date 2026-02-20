@@ -214,6 +214,98 @@ The image classification model is designed to detect and distinguish various her
 - Number of images per class: 250+
 (Each plant species has 250+ images in the dataset)
 
+<img width="272" height="588" alt="image" src="https://github.com/user-attachments/assets/312c7522-987f-4d0d-9307-d07135b91e3a" />
+
+---
+
+## D. Model Evaluation
+
+### 1. Confusion Matrix
+
+<img width="400" height="843" alt="image" src="https://github.com/user-attachments/assets/6b71a61a-fec3-44df-9109-95079a64ddf6" />
+<img width="373" height="805" alt="image" src="https://github.com/user-attachments/assets/d2f3c2b7-068d-4cd5-b613-bf5e78e99305" />
+<img width="375" height="796" alt="image" src="https://github.com/user-attachments/assets/8a5b25be-83f1-422c-833c-e1c33ef07ecd" />
+
+### 2. Accuracy Per Class
+
+<img width="383" height="822" alt="image" src="https://github.com/user-attachments/assets/bcfd0970-a8a6-42c9-8047-424e33bdb844" />
+
+### 3. Accuracy Per Epoch
+
+<img width="412" height="353" alt="image" src="https://github.com/user-attachments/assets/202a1152-0473-4617-89b9-9bac8c2a372d" />
+
+### 4. Loss Per Epoch
+
+<img width="410" height="330" alt="image" src="https://github.com/user-attachments/assets/d19f90af-b048-4207-b856-c8d7e2537ef7" />
+
+---
+
+## Model Testing
+
+### Test 1.
+
+<img width="362" height="787" alt="image" src="https://github.com/user-attachments/assets/fbbbca43-4f15-48ad-aaa2-bdeaa9afb167" />
+
+### Test 2.
+
+<img width="364" height="754" alt="image" src="https://github.com/user-attachments/assets/18f99516-e238-45b1-80fa-6df2b5e6e899" />
+
+### Test 3.
+
+<img width="368" height="790" alt="image" src="https://github.com/user-attachments/assets/6318d665-4113-4783-ab10-b8f54f0621cd" />
+
+### Test 4.
+
+<img width="358" height="778" alt="image" src="https://github.com/user-attachments/assets/a58967e6-b5d9-4136-97a6-3f717068c218" />
+
+### Test 5.
+
+<img width="364" height="795" alt="image" src="https://github.com/user-attachments/assets/608f3f7b-01d0-4bbb-9a6b-4c20302ab2e2" />
+
+### Test 6.
+
+<img width="365" height="795" alt="image" src="https://github.com/user-attachments/assets/a9e5d5b9-bd92-45d0-8cca-c299bb743e2f" />
+
+### Test 7.
+
+<img width="362" height="790" alt="image" src="https://github.com/user-attachments/assets/365eb449-e5ac-411e-bf65-c1e3fca79788" />
+
+### Test 8.
+
+<img width="365" height="800" alt="image" src="https://github.com/user-attachments/assets/47aadccd-5813-4eb8-ba54-2b2ceecfed62" />
+
+### Test 9.
+
+<img width="367" height="791" alt="image" src="https://github.com/user-attachments/assets/bf8e1538-3a9e-4bc3-bbe8-ce58d580c2fe" />
+
+### Test 10.
+
+<img width="373" height="801" alt="image" src="https://github.com/user-attachments/assets/2ca02858-a981-42a7-9eb4-b16e2b40b758" />
+
+---
+
+## Reflection Questions
+
+### 1. How did the number of images per class affect your model’s accuracy?
+
+The number of images per class directly affected accuracy, classes with more samples achieved near-perfect performance, while those with fewer struggled.
+
+### 2. Which plant species were most commonly misclassified and why?
+
+Fish Poison was misclassified because the model didn’t have enough diverse examples to fully capture its unique traits, and its leaf structure shares too many similarities with other species.
+
+### 3. How did changing the epochs, batch size, or learning rate affect the training results?
+
+The accuracy curve showed smooth convergence and minimal overfitting, suggesting that the chosen learning rate and batch size were well balanced, and that most of the gains occurred early in training, with later epochs mainly confirming stability rather than boosting accuracy further.
+
+### 4. What challenges did you encounter during dataset collection and labeling?
+
+During dataset collection and labeling, several challenges emerged that affected both the quality and consistency of the data. One major issue was limited availability of images for certain plant species, especially those less common or harder to access, which led to imbalances in the dataset. 
+
+### 5. If you were to improve your model, what specific changes would you make and why?If you were to improve your model, what specific changes would you make and why?
+
+If I were to improve the model, I would start by expanding the dataset, especially for classes with fewer samples like Pomelo and Fish Poison, since limited data made them more prone to misclassification. Collecting more diverse images under different lighting conditions, angles, and growth stages would help the model capture unique features more effectively.
+
 
 
 
